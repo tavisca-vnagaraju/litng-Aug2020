@@ -19,7 +19,7 @@ export class AppComponent {
      this.models.push(this.model);
      let element = document.querySelector('simple-element');
      // element.records = this.models;
-      element.getValues(this.models);
+      //element.getValues(this.models); 
      // element.view = JSON.stringify(this.models);
    //  alert(`For Lit Elements ${JSON.stringify(element.records)}`);
 
